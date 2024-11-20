@@ -1,0 +1,44 @@
+{
+  "name": "statusbar-notes",
+  "displayName": "Status Bar Notes",
+  "description": "Add custom text to VS Code status bar",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "statusbar-notes.addNote",
+        "title": "Status Bar Notes: Add Note"
+      },
+      {
+        "command": "statusbar-notes.clearNote",
+        "title": "Status Bar Notes: Clear Note"
+      },
+      {
+        "command": "statusbar-notes.setColor",
+        "title": "Status Bar Notes: Set Color"
+      },
+      {
+        "command": "statusbar-notes.setEffect",
+        "title": "Status Bar Notes: Set Effect"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.80.0",
+    "@types/node": "^20.8.9",
+    "typescript": "^5.2.2"
+  }
+}
