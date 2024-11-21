@@ -2,8 +2,7 @@
 
 Transform your VS Code status bar into a dynamic notes with stunning visual effects! Perfect for quick reminders, todo items, or adding a splash of personality to your coding environment.
 
-[//]: # (![Status Bar Notepad Demo]&#40;https://raw.githubusercontent.com/yourusername/status-bar-notepad/main/images/demo.gif&#41;)
-![banner](media/extension-banner-updated.png)
+![Status Bar Notepad Demo](media/demo.gif)
 
 ## ✨ Features
 
