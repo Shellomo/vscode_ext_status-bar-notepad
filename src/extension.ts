@@ -6,6 +6,7 @@ let statusBarManager: StatusBarManager;
 
 export function activate(context: vscode.ExtensionContext) {
     statusBarManager = new StatusBarManager();
+    statusBarManager.show();
 
     // Register show menu command
     let showMenuCommand = vscode.commands.registerCommand('statusbar-notes.showMenu', async () => {

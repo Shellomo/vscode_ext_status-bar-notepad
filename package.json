@@ -1,7 +1,13 @@
 {
   "name": "statusbar-notes",
-  "displayName": "Status Bar Notes",
-  "description": "Add custom text to VS Code status bar",
+  "displayName": "Status Bar Note",
+  "description": "Transform your status bar into a dynamic notes with stunning visual effects! Perfect for quick reminders, todo items, or adding a splash of personality to your coding environment.",
+  "icon": "media/logo.png",
+  "publisher": "SHellomo",
+  "galleryBanner": {
+    "color": "#007ACC",
+    "theme": "dark"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.80.0"
@@ -9,7 +15,9 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
@@ -40,5 +48,21 @@
     "@types/vscode": "^1.80.0",
     "@types/node": "^20.8.9",
     "typescript": "^5.2.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shellomo/vscode_ext_status-bar-notepad"
+  },
+  "keywords": [
+    "status bar",
+    "notes",
+    "todo",
+    "reminder",
+    "productivity",
+    "amazing",
+    "notepad",
+    "note",
+    "quick",
+    "cool"
+  ]
 }
