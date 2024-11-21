@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640">
+  <!-- Background -->
+  <rect width="1280" height="640" fill="#1E1E1E"/>
+  <path d="M0 100 Q 320 150 640 100 Q 960 50 1280 100 L 1280 0 L 0 0 Z" fill="#2C2C32"/>
+  <path d="M0 540 Q 320 590 640 540 Q 960 490 1280 540 L 1280 640 L 0 640 Z" fill="#2C2C32"/>
+  
+  <!-- VS Code Window -->
+  <rect x="240" y="120" width="800" height="400" rx="8" fill="#2C2C32"/>
+  <rect x="240" y="120" width="800" height="30" rx="8" fill="#383838"/>
+  <circle cx="265" cy="135" r="6" fill="#FF5F56"/>
+  <circle cx="285" cy="135" r="6" fill="#FFBD2E"/>
+  <circle cx="305" cy="135" r="6" fill="#27C93F"/>
+  
+  <!-- Menu Overlay -->
+  <rect x="440" y="200" width="400" height="240" rx="6" fill="#252526"/>
+  <rect x="440" y="200" width="400" height="40" rx="6" fill="#3C3C3C"/>
+  <text x="455" y="225" fill="#CCCCCC" font-family="Arial" font-size="14">Select an action</text>
+  
+  <!-- Menu Items -->
+  <g font-family="Arial" font-size="14" fill="white">
+    <rect x="440" y="240" width="400" height="40" fill="#0E639C"/>
+    <text x="480" y="265">📝 Add Note</text>
+    
+    <rect x="440" y="280" width="400" height="40" fill="#252526"/>
+    <text x="480" y="305">🎨 Change Color</text>
+    
+    <rect x="440" y="320" width="400" height="40" fill="#252526"/>
+    <text x="480" y="345">✨ Change Effect</text>
+    
+    <rect x="440" y="360" width="400" height="40" fill="#252526"/>
+    <text x="480" y="385">❌ Clear Note</text>
+  </g>
+  
+  <!-- Status Bar -->
+  <rect x="240" y="490" width="800" height="30" rx="4" fill="#007ACC"/>
+  
+  <!-- Dynamic Text Effect -->
+  <g id="noteText">
+    <text x="280" y="510" fill="white" font-family="Arial" font-size="14">
+      📝 Meeting with team @ 2pm
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  
+  <!-- Title -->
+  <text x="640" y="80" fill="white" font-family="Arial" font-size="48" text-anchor="middle" font-weight="bold">
+    Status Bar Notepad
+  </text>
+  
+  <!-- Features -->
+  <g font-family="Arial" font-size="24" fill="white">
+    <text x="320" y="580" text-anchor="middle">🎨 Custom Colors</text>
+    <text x="640" y="580" text-anchor="middle">✨ Dynamic Effects</text>
+    <text x="960" y="580" text-anchor="middle">💾 Persistent Notes</text>
+  </g>
+  
+  <!-- Floating Icons -->
+  <g>
+    <circle cx="180" cy="200" r="20" fill="#007ACC" opacity="0.6">
+      <animate attributeName="cy" values="200;180;200" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1100" cy="300" r="15" fill="#FFD700" opacity="0.6">
+      <animate attributeName="cy" values="300;280;300" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="200" cy="400" r="25" fill="#FF5F56" opacity="0.6">
+      <animate attributeName="cy" values="400;380;400" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
