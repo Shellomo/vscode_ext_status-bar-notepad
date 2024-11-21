@@ -1,4 +1,4 @@
-# Status Bar Notes 📝
+# Enhanced Status Bar
 
 Transform your VS Code status bar into a dynamic notes with stunning visual effects! Perfect for quick reminders, todo items, or adding a splash of personality to your coding environment.
 
